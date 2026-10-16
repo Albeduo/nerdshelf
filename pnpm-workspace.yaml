@@ -1,2 +1,7 @@
 packages:
   - "apps/*"
+allowBuilds:
+  '@prisma/engines': false
+  esbuild: false
+  prisma: false
+  workerd: false
